@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tapşiriq 3</title>
+</head>
+<body>
+
+    <h1 id="num">0</h1>
+    <button onclick="art()">Artır</button>
+    <button onclick="azalt()">Azalt</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+SCRIPT
+
+var s = 0;
+
+function art() {
+    s = s + 1;
+    document.getElementById("num").innerHTML = s;
+}
+
+function azalt() {
+    s = s - 1;
+    document.getElementById("num").innerHTML = s;
+}
