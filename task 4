@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tapşiriq 4</title>
+</head>
+<body>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+SCRIPT
+
+var n = prompt("Ədəd daxil edin:");
+var f = 1;
+
+for (var i = 1; i <= n; i++) {
+    f = f * i;
+}
+
+console.log(f);
